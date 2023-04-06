@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Project1.SaaS.Domain.Shared": {
+      "path": "src/Project1.SaaS.Domain.Shared/Project1.SaaS.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Project1.SaaS.Domain": {
+      "path": "src/Project1.SaaS.Domain/Project1.SaaS.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Project1.SaaS.Application.Contracts": {
+      "path": "src/Project1.SaaS.Application.Contracts/Project1.SaaS.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Project1.SaaS.Application": {
+      "path": "src/Project1.SaaS.Application/Project1.SaaS.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Project1.SaaS.EntityFrameworkCore": {
+      "path": "src/Project1.SaaS.EntityFrameworkCore/Project1.SaaS.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Project1.SaaS.MongoDB": {
+      "path": "src/Project1.SaaS.MongoDB/Project1.SaaS.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Project1.SaaS.HttpApi": {
+      "path": "src/Project1.SaaS.HttpApi/Project1.SaaS.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Project1.SaaS.HttpApi.Client": {
+      "path": "src/Project1.SaaS.HttpApi.Client/Project1.SaaS.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Project1.SaaS.TestBase": {
+      "path": "test/Project1.SaaS.TestBase/Project1.SaaS.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Project1.SaaS.EntityFrameworkCore.Tests": {
+      "path": "test/Project1.SaaS.EntityFrameworkCore.Tests/Project1.SaaS.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Project1.SaaS.MongoDB.Tests": {
+      "path": "test/Project1.SaaS.MongoDB.Tests/Project1.SaaS.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Project1.SaaS.Domain.Tests": {
+      "path": "test/Project1.SaaS.Domain.Tests/Project1.SaaS.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Project1.SaaS.Application.Tests": {
+      "path": "test/Project1.SaaS.Application.Tests/Project1.SaaS.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Project1.SaaS.HttpApi.Host": {
+      "path": "host/Project1.SaaS.HttpApi.Host/Project1.SaaS.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Project1.SaaS.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Project1.SaaS.HttpApi.Client.ConsoleTestApp/Project1.SaaS.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Project1.SaaS.IdentityServer": {
+      "path": "host/Project1.SaaS.IdentityServer/Project1.SaaS.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Project1.SaaS.Host.Shared": {
+      "path": "host/Project1.SaaS.Host.Shared/Project1.SaaS.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

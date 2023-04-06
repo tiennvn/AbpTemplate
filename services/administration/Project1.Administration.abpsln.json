@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Project1.Administration": {
+      "path": "Project1.Administration.abpmdl.json"
+    }
+  }
+}

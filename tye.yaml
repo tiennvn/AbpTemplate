@@ -1,0 +1,38 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: project1
+services:
+- name: project1-administration-httpapi-host
+  project: services/administration/host/Project1.Administration.HttpApi.Host/Project1.Administration.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7001
+- name: project1-identityservice-httpapi-host
+  project: services/identity/host/Project1.IdentityService.HttpApi.Host/Project1.IdentityService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7002
+- name: project1-saas-httpapi-host
+  project: services/saas/host/Project1.SaaS.HttpApi.Host/Project1.SaaS.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7003
+- name: project1-auth-server
+  project: apps/Project1.AuthServer/Project1.AuthServer.csproj
+  bindings:
+    - protocol: https
+      port: 7600
+- name: project1-gateway
+  project: gateway/Project1.Gateway/Project1.Gateway.csproj
+  bindings:
+    - protocol: https
+      port: 7500
+- name: project1-blazor
+  project: apps/Project1.Blazor/Project1.Blazor.csproj
+  bindings:
+    - protocol: https
+      port: 5000

@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Project1.SaaS": {
+      "path": "Project1.SaaS.abpmdl.json"
+    }
+  }
+}
